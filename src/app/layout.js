@@ -10,10 +10,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <PokemonProvider>
-      <Nav/>
-      <body>{children}</body>
-      </PokemonProvider>
+      <body>
+        <PokemonProvider>
+          <Nav />
+          {children}
+        </PokemonProvider>
+      </body>
     </html>
   );
 }

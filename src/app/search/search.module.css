@@ -1,0 +1,63 @@
+.title {
+    font-size: 50px;
+    /* background-color: wheat; */
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.textbox input {
+    width: 500px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: 20px;
+}
+
+.button {
+    width: 100px;
+    height: 50px;
+}
+
+.display {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px ;
+}
+
+.displayBlock h2 {
+    font-size: 30px;
+}
+
+.displayBlock img {
+    width: 220px;
+    height: 200px;
+    margin-top: 20px ;
+}
+
+.displayBlock p {
+    font-style: italic;
+}
+
+
+.eggContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.eggcontent  {
+    flex-wrap: wrap;
+}
+
+.eggcontent h2 {
+    font-size: 35px;
+}

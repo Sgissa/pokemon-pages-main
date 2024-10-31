@@ -1,0 +1,39 @@
+.title {
+    font-size: 50px;
+    background-color: wheat;
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+  background-color: aqua;
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
+}
+
+.block img {
+ background-color: bisque;
+ width: 300px;
+ height: 400px;
+ margin-top: 20px ;
+}
+
+.reload {
+    width: 34`0px;
+    height: 80px;
+    background-color: brown;
+    margin: 0 auto;
+    justify-self: center;
+    margin-top: 30px;
+}
+
+.reload button {
+
+}
